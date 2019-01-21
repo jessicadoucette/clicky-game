@@ -1,0 +1,65 @@
+[
+	{
+	"id": 1,
+	"name": "Homer",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/0/02/Homer_Simpson_2006.png/revision/latest/top-crop/width/200/height/150?cb=20091207194310"
+}, 
+{
+	"id": 2,
+	"name": "Marge",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/0/0b/Marge_Simpson.png/revision/latest/top-crop/width/200/height/150?cb=20180626055729"
+}, 
+{
+	"id": 3,
+	"name": "Bart",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/6/65/Bart_Simpson.png/revision/latest/top-crop/width/200/height/150?cb=20180319061933"
+}, 
+{
+	"id": 4,
+	"name": "Lisa",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/b/b3/Lisa_with_normal_hair.gif/revision/latest/top-crop/width/200/height/150?cb=20170706032926"
+},
+{
+	"id": 5,
+	"name": "Maggie",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/6/6c/MaggieSimpson.PNG/revision/latest/top-crop/width/200/height/150?cb=20180314210204"
+},
+{
+	"id": 6,
+	"name": "Mr. Burns",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/b/b0/Mr._Burns.png/revision/latest/top-crop/width/200/height/150?cb=20130910084050"
+},
+{
+	"id": 7,
+	"name": "Krusty The Clown",
+	"image": "https://assets.fxnetworks.com/cms/prod/2016/12/simpsonsworld_social_og_krusty_1200x1200.jpg"
+},
+{
+	"id": 8,
+	"name": "Grampa",
+	"image": "https://pbs.twimg.com/profile_images/418877922833743872/ivvBiYi__400x400.png"
+},
+{
+	"id": 9,
+	"name": "Milhouse",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/9/91/Milhouse_Van_Houten_2.png/revision/latest/top-crop/width/200/height/150?cb=20180429212659"
+},
+{
+	"id": 10,
+	"name": "Ralph",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/1/14/Ralph_Wiggum.png/revision/latest/top-crop/width/200/height/150?cb=20100704163100"
+},
+{
+	"id": 11,
+	"name": "Nelson",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/e/e0/Nelson_Muntz-795440.png/revision/latest/top-crop/width/200/height/150?cb=20170903210651"
+},
+{
+	"id": 12,
+	"name": "Jasper",
+	"image": "https://vignette.wikia.nocookie.net/simpsons/images/0/09/Otto_Mann.png/revision/latest/top-crop/width/200/height/150?cb=20130930205930"
+}
+]
+
+
+

@@ -1,0 +1,10 @@
+.jumbotron {
+	background-color: #EBCB2D;
+	color: white;
+	height: 400px !important;
+	border-radius: none;
+}
+
+h1 {
+	font-size: 60px;
+}

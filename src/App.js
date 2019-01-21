@@ -1,28 +1,28 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
+import Counter from "./components/Counter";
+import Nav from "./components/Nav";
+import Jumbotron from "./components/Jumbotron"; 
+import SimpsonCard from "./components/SimpsonCard";
+import simpsons from "./simpsons.json";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const App = () => (
+<div>
+<Nav />
+<Jumbotron>
+<h1>The Simpson's Clicky Game!</h1> 
+<br></br>
+<h2>Click on an image to earn points, but don't click on any more than once!</h2>
+</Jumbotron>
+<SimpsonCard 
+image={simpsons[0].image}
+/>
+<SimpsonCard 
+image={simpsons[1].image}
+/>
+<Counter />
+</div>
+); 
 
 export default App;
