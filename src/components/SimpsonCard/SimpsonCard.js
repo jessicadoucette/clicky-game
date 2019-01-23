@@ -4,12 +4,13 @@ import "./SimpsonCard.css";
 
 
 const SimpsonCard = props => (
-	<div class="card-columns">
-  <div class="card">
+
+  <div class="card" onClick={props.cardClick}>
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
-		</div></div>
+		</div>
+
 
 );
 
