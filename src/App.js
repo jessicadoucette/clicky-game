@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Counter from "./components/Counter";
 import Nav from "./components/Nav";
 // import Container from "./components/Container";
 import simpsons from "./simpsons.json";
@@ -70,9 +69,9 @@ class App extends Component {
 							<br></br>
 							<h2>Click on an image to earn points, but don't click on any more than once!</h2>
 							<br></br>
-							<h2>Score: {this.props.score}</h2>
+							<h2>Score: {this.state.score}</h2>
 						</Jumbotron>
-						<div className="col-lg-6 card-columns" style={{margin: '0 auto'}}>
+						<div className="wrapper col-lg-6 card-columns" style={{margin: '0 auto'}}>
 						{this.state.simpsons.map(simpsons => (
             <SimpsonCard
               cardClick={this.cardClick}
@@ -84,7 +83,7 @@ class App extends Component {
 							
 
 						</div>
-						<Counter />
+			
 					</div>
 				);
 			}

@@ -1,3 +1,8 @@
+<h1>Simpsons Clicky Game</h1>
+
+<h2>Overview</h2>
+This is a memory game using React. The app appends 12 Simpsons Characters wrapped in cards to the DOM. When the user clicks a card, the score counter will go up. The name of the game is to click a different character each time to win. If the user clicks the same character twice, the user loses and the game restarts.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

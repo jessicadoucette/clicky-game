@@ -23,13 +23,7 @@
 }
 
 .wrapper {
-  height: 100%;
-  display: flex;
-	flex-flow: row;
-	flex-wrap: wrap;
-  /* padding: 25px 0 50px; */
-  /* justify-content: space-around; */
-  align-content: flex-start;
+  padding-bottom: 50px;
 }
 
 @keyframes App-logo-spin {
