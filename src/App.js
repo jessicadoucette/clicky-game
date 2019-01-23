@@ -30,7 +30,9 @@ class App extends Component {
 				clickedCard: [],
 				score: 0
 			});
-			alert("You lose. Play again?");
+			
+   
+			alert("Doh! You lose. Play again?");
 			//if user clicks on an available card, the score is increased and cards shuffle
     } else {
       this.setState(
@@ -46,6 +48,7 @@ class App extends Component {
 				//if user gets all 12 cards correct, return congratulations message and reset game
         () => {
           if (this.state.score === 12) {
+						
             alert("Yay! You Win!");
             this.setState({
               simpsons: this.state.simpsons.sort(function(a, b) {
